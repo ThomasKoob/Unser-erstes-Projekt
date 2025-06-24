@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meine Website</title>
     <link rel="stylesheet" href="style.css" />
-    <!-- Optional: Verlinkung zu einer CSS-Datei -->
   </head>
   <body>
     <header>
-      <h1>Willkommen auf meiner Website</h1>
+      <div id="grid-top">
+        <div>LOGO</div>
+        <a href="#">Help Center</a>
+        <div class="buttons">
+          <button class="btn" id="submit">Submit a request</button>
+          <button class="btn" id="login">Sign in</button>
+        </div>
+      </div>
+      <div id="grid-bottom">
+        <h1 id="helptext">How can we help?</h1>
+        <div id="search"><input type="text" placeholder="Search" /></div>
+      </div>
     </header>
     <main>
       <p>Hier kommt dein Inhalt hin.</p>
