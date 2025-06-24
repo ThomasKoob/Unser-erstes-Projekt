@@ -1,5 +1,6 @@
-@import url("header.css");
+@import url("./header.css");
 @import url("./services.css");
+@import url("./about.css");
 @import url("https://fonts.cdnfonts.com/css/gerbera?styles=145971,145970,145966,145967,145969,145968,145965,145964,145963,145962");
 * {
   box-sizing: border-box;
