@@ -10,13 +10,18 @@
 } */
 #grid-top {
   display: grid;
-  grid-template-columns: 60px 105px 1fr;
+  grid-template-columns: 80px 105px 1fr;
   padding: 1rem;
   background-color: #000000;
   color: rgb(255, 255, 255);
 }
 header {
   padding: 2px;
+}
+#help:hover {
+  padding: 10px;
+  text-decoration: underline;
+  background-image: linear-gradient(rgba(255, 217, 0, 0.507), rgb(0, 0, 0));
 }
 a:first-of-type {
   padding: 10px;
@@ -45,8 +50,9 @@ nav {
   padding: 10px 10px;
 }
 a:hover {
-  background-color: #dadabb;
-  /* padding: 4px 12px 0px 0px; */
+  padding: 10px;
+  text-decoration: underline;
+  background-image: linear-gradient(rgba(255, 217, 0, 0.507), white);
 }
 .buttons {
   display: flex;
@@ -67,6 +73,7 @@ a:hover {
 }
 #search {
   justify-self: center;
+  margin-bottom: 20px;
 }
 input {
   height: 50px;
