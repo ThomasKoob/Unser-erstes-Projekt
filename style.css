@@ -1,7 +1,10 @@
+@import url("./services.css");
+@import url("https://fonts.cdnfonts.com/css/gerbera?styles=145971,145970,145966,145967,145969,145968,145965,145964,145963,145962");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* outline: 1px solid red; */
 }
 
 html,
@@ -11,9 +14,9 @@ body {
   line-height: 1.5;
   min-height: 100vh;
   min-height: 100dvh;
-  display: grid;
+  /*   display: grid;
   grid-template-rows: auto 1fr auto;
-  width: 100%;
+  width: 100%; */
 }
 
 body {
