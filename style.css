@@ -9,6 +9,11 @@ body {
   height: 100%;
   font-family: sans-serif;
   line-height: 1.5;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 100%;
 }
 
 body {
