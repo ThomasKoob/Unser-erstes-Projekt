@@ -18,7 +18,7 @@
       </div>
       <div id="grid-mid">
         <nav><a href="about.html">About Us</a></nav>
-        <nav><a href="contact.html">Contact</a></nav>
+        <nav><a href="#contact">Contact</a></nav>
       </div>
       <div id="grid-bottom">
         <h1 id="helptext">How can we help?</h1>
@@ -122,8 +122,55 @@
           </div>
         </div>
       </section>
+
+
+      <!-- Arnaud contact section -->
+
+      <section id="contact">
+        <h2 class="contact__title">Contact Us</h2>
+        <form method="post" action="#" class="contact__container">
+          <div class="contact-container__item">
+
+            <label class="contact-container__item__label" for="email">Email</label>
+
+            <input type="email" name="email"
+            id="email" class="contact-container__item__input" placeholder="Enter your email" required autocomplete="email">
+
+
+          </div>
+
+
+           <div class="contact-container__item">
+
+            <label class="contact-container__item__label" for="password">Password</label>
+
+            <input type="password" name="password"
+            id="password" class="contact-container__item__input" placeholder="Enter your password" required autocomplete="current-password">
+
+
+          </div>
+
+          <div class="contact-container__item">
+              <label class="contact-container__item__label" for="message">Message</label>
+
+              <textarea name="message"
+              id="message" class="contact-container__item__input" cols="30" rows="10" placeholder="Enter your message" required autocomplete="off"></textarea>
+          </div>
+
+
+
+          <div class="contact-container__item">
+            <button class="contact-container__item__button" type="submit">Submit</button>
+          </div>
+
+        </form>
+
+        </div>
+      </section>
     </main>
     <figure id="img"><img id="logoAbout" src="./assets/images/logo.png" alt="LUXDRIVE Logo"></figure>
+
+
 
     <footer class="footer">
       <div class="footer-container">
