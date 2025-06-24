@@ -1,0 +1,19 @@
+li {
+  display: list-item;
+  list-style-type: disc;
+}
+h1 {
+  text-align: center;
+}
+main {
+  max-width: 1000px;
+  align-self: center;
+  padding: 20px;
+}
+#img {
+  justify-items: center;
+}
+#logoAbout {
+  width: 400px;
+  clip-path: inset(90px 20px 90px 20px);
+}
