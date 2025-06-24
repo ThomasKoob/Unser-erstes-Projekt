@@ -1,0 +1,47 @@
+* {
+  border: red solid 1px;
+}
+#grid-top {
+  display: grid;
+  grid-template-columns: 60px 90px 1fr;
+  padding: 1rem;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+#grid-bottom {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #bacfe2;
+}
+button {
+  display: grid;
+  border-radius: 8px;
+  padding: 5px;
+  color: white;
+  justify-self: end;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+#submit {
+  background-color: rgb(58, 58, 58);
+  border-color: white;
+}
+#login {
+  background-color: rgb(97, 97, 236);
+  margin-left: 10px;
+}
+#helptext {
+  justify-self: center;
+  padding-top: 2rem;
+}
+#search {
+  justify-self: center;
+}
+input {
+  height: 50px;
+  width: 350px;
+  min-width: 200px;
+  text-align: left;
+}
