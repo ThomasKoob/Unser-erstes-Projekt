@@ -45,5 +45,13 @@
 @media screen and (max-width: 768px) {
   #services {
     margin-top: 500px;
+    padding: 1rem;
+  }
+  #services-container {
+    padding: 0px;
+  }
+
+  .services__title {
+    margin: 2rem;
   }
 }
