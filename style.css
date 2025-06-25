@@ -113,4 +113,5 @@ d .footer-bottom {
   right: 0.2rem;
   top: 0.2rem;
   z-index: 1;
+  cursor: pointer;
 }
