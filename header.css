@@ -113,4 +113,11 @@ section {
     max-width: 150px;
     margin: 0.3rem;
   }
+  header {
+    position: absolute;
+    width: 100%;
+  }
+  section {
+    scroll-margin-top: 0px;
+  }
 }
