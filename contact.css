@@ -1,5 +1,5 @@
 main {
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 #contact {
   display: flex;
@@ -72,6 +72,9 @@ button.contact-container__item__button:hover {
 }
 
 @media (max-width: 768px) {
+  #contact {
+    padding: 2rem;
+  }
   .contact__container {
     width: 100%;
   }
