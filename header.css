@@ -85,3 +85,6 @@ input {
   border-radius: 5px;
   padding: 1rem;
 }
+section {
+  scroll-margin-top: 300px;
+}
