@@ -30,7 +30,6 @@ a {
 a:hover {
   padding: 10px 10px 0px 0px;
   text-decoration: underline;
-  background-image: linear-gradient(rgba(188, 144, 65, 0.507), white);
 }
 #grid-mid {
   display: flex;
