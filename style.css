@@ -35,10 +35,11 @@ body {
 
 .home main {
   flex: 1;
+
   padding: 0;
   margin-inline: auto;
+
   max-width: 1400px;
-  padding-top: 355px;
 }
 
 img {
@@ -83,6 +84,7 @@ ol {
 }
 
 .footer-column li {
+  list-style: none;
   margin-bottom: 0;
 }
 
@@ -92,11 +94,16 @@ ol {
 }
 d .footer-bottom {
   text-align: end;
-  margin-top: 2rem;
+  margin-top: 8rem;
   font-size: 0.8rem;
   opacity: 0.7;
   white-space: nowrap;
 }
 .footer-column {
   min-width: 150px;
+}
+.footer-column a:hover {
+  padding-top: 5px;
+  padding-right: 10px;
+  background-image: linear-gradient(rgba(188, 144, 65, 0.507), rgb(0, 0, 0));
 }
