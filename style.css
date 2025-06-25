@@ -39,7 +39,7 @@ body {
   flex: 1;
   padding: 0;
   margin-inline: auto;
-  max-width: 100%;
+  max-width: 1000px;
 }
 
 img {
