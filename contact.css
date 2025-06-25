@@ -72,5 +72,7 @@ button.contact-container__item__button:hover {
   }
   .contact__container {
     width: 100%;
+    gap: 0;
+    padding: 0;
   }
 }
