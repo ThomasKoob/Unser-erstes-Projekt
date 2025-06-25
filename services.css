@@ -9,7 +9,7 @@
 }
 
 .services__title {
-  color: #2d3979;
+  color: #000000;
   padding: 1rem;
   line-height: 1.5px;
 }
@@ -26,17 +26,19 @@
   flex-direction: column;
   align-items: center;
   grid-template-columns: 1fr;
-  border: 1px solid #4361ee;
+  border: 1px solid #d3a24b;
   border-radius: 5px;
   /* padding: 0 2rem 2rem 2rem; */
   /* padding: 2rem; */
+
+  background: #f6f6f6;
 }
 .services-container__item__title {
-  color: #101c5e;
+  color: #000000;
   padding: 1rem;
   /* line-height: 1.5px; */
 }
 .services-container__item__text {
-  color: #2d3979;
+  color: rgba(0, 0, 0, 0.8);
   padding: 1rem;
 }
