@@ -40,3 +40,8 @@
   color: #2d3979;
   padding: 1rem;
 }
+@media screen and (max-width: 768px) {
+  #services {
+    margin-top: 500px;
+  }
+}
