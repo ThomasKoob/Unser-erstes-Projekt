@@ -18,3 +18,8 @@ main {
   width: 400px;
   clip-path: inset(90px 20px 90px 20px);
 }
+@media screen and (max-width: 768px) {
+  #about {
+    margin-top: 200px;
+  }
+}

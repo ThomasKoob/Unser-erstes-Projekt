@@ -42,3 +42,8 @@
   color: rgba(0, 0, 0, 0.8);
   padding: 1rem;
 }
+@media screen and (max-width: 768px) {
+  #services {
+    margin-top: 500px;
+  }
+}
