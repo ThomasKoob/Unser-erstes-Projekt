@@ -11,12 +11,12 @@
   padding: 2rem;
   text-align: center;
 
-  background: #eff1fe;
+  background: #000000;
 }
 
 .cars__title {
   margin-bottom: 2rem;
-  color: #101c5e;
+  color: #d3a24b;
 }
 #cars-container {
   display: grid;
@@ -37,7 +37,7 @@
 }
 
 .cars-container__item__title {
-  color: #101c5e;
+  color: #000000;
   padding: 1rem;
 }
 
@@ -52,6 +52,6 @@
 }
 
 .cars-container__item__text {
-  color: #2d3979;
+  color: rgba(0, 0, 0, 0.8);
   padding: 1rem;
 }
