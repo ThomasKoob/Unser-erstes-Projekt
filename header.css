@@ -36,12 +36,12 @@ a:hover {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  background-color: #ffffff;
+  background-color: #d3a24b;
 }
 #grid-bottom {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #bacfe2;
+  background-color: #f6f6f6;
 }
 button {
   display: grid;
