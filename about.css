@@ -6,11 +6,10 @@ h1 {
   text-align: center;
 }
 main {
-
   max-width: 1000px;
-
   align-self: center;
   padding: 20px;
+  padding-top: 355px;
 }
 #img {
   justify-items: center;

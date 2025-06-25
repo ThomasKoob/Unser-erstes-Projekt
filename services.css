@@ -1,10 +1,13 @@
 #services {
+
   display: flex;
   flex-direction: column;
   padding: 2rem;
   text-align: center;
+
   background: #ffffff;
   width: 100%;
+
 }
 
 .services__title {
