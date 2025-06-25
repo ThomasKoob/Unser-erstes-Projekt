@@ -19,7 +19,7 @@ main {
 .contact__container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  /* gap: 2rem; */
   padding: 2rem;
   width: 80%;
   background: #f6f6f6;
