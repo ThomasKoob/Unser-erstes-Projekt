@@ -7,30 +7,34 @@
 /* * {
   border: red 1px solid;
 } */
+#logo {
+  clip-path: inset(29px 2px 28px 2px);
+  scale: 4.2;
+}
 #grid-top {
   display: grid;
-  grid-template-columns: 80px 105px 1fr;
+  grid-template-columns: 80px;
+  justify-content: center;
   padding: 1rem;
-  background-color: #000000;
+  background-color: rgba(8, 8, 7, 255);
   color: rgb(255, 255, 255);
 }
 header {
-  padding: 2px;
   position: fixed;
   width: 100%;
   z-index: 999;
 }
-#help:hover {
+a {
   padding: 10px;
-  text-decoration: underline;
-  background-image: linear-gradient(rgba(255, 217, 0, 0.507), rgb(0, 0, 0));
 }
-a:first-of-type {
+a:hover {
   padding: 10px;
   text-decoration: underline;
+  background-image: linear-gradient(rgba(188, 144, 65, 0.507), white);
 }
 #grid-mid {
   display: flex;
+  justify-content: space-between;
   padding: 10px;
   background-color: #ffffff;
 }
@@ -49,12 +53,8 @@ button {
   align-content: center;
 }
 nav {
+  display: flex;
   padding: 10px 10px;
-}
-a:hover {
-  padding: 10px;
-  text-decoration: underline;
-  background-image: linear-gradient(rgba(255, 217, 0, 0.507), white);
 }
 .buttons {
   display: flex;
@@ -71,15 +71,14 @@ a:hover {
 }
 #helptext {
   justify-self: center;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 #search {
   justify-self: center;
-  padding-bottom: 2rem;
-  margin-bottom: 20px;
+  padding-bottom: 1rem;
 }
 input {
-  height: 50px;
+  height: 40px;
   width: 350px;
   min-width: 200px;
   text-align: left;
