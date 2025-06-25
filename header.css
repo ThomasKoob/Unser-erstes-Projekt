@@ -54,6 +54,8 @@ button {
 }
 nav {
   display: flex;
+  justify-content: space-around;
+  width: 100%;
   padding: 10px 10px;
 }
 .buttons {
@@ -84,4 +86,7 @@ input {
   text-align: left;
   border-radius: 5px;
   padding: 1rem;
+}
+section {
+  scroll-margin-top: 300px;
 }
