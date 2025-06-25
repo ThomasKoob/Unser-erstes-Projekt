@@ -20,6 +20,7 @@ body {
   line-height: 1.5;
   min-height: 100vh;
   min-height: 100dvh;
+  width: auto;
   /*   display: grid;
   grid-template-rows: auto 1fr auto;
   width: 100%; */
@@ -34,8 +35,11 @@ body {
   flex-direction: column;
 }
 
-main {
+.home main {
   flex: 1;
+  padding: 0;
+  margin-inline: auto;
+  max-width: 100%;
 }
 
 img {

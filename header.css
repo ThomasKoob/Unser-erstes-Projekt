@@ -67,10 +67,13 @@ a:hover {
 }
 #search {
   justify-self: center;
+  padding-bottom: 2rem;
 }
 input {
   height: 50px;
   width: 350px;
   min-width: 200px;
   text-align: left;
+  border-radius: 5px;
+  padding: 1rem;
 }
