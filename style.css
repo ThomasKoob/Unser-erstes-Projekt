@@ -35,11 +35,10 @@ body {
 
 .home main {
   flex: 1;
-
   padding: 0;
   margin-inline: auto;
-
   max-width: 1400px;
+  padding-top: 355px;
 }
 
 img {
